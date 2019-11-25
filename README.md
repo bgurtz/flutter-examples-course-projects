@@ -1,16 +1,11 @@
-# flutter_course_projects
+# flutter-examples-course-projects
 
-A new Flutter project.
+## Fisrt App with AppBar and SafeArea
 
-## Getting Started
+![alt text](https://github.com/bgurtz/flutter-examples-course-projects/blob/First_App_with_Appbar_/Section_Images/first_app.JPG)
 
-This project is a starting point for a Flutter application.
+### Getting Started
 
-A few resources to get you started if this is your first Flutter project:
+This is a basic Flutter application.
+In this app we have an appbar, body and we see what 'SafeArea' does for us.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
