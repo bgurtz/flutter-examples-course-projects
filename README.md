@@ -17,6 +17,6 @@
 - Part 2 
   - Personality Quiz App
 - Part 3
-  - 
+  - Comming Soon
 - Part 4
-  - 
+  - Comming Soon
