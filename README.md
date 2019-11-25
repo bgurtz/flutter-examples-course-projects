@@ -12,11 +12,11 @@
 
 #### Each section has an animated gif to show what you will build. 
 
-- Part 1 
+- **Part 1** 
   - My First App ' Hello World ' with AppBar and SafeArea introduction
-- Part 2 
+- **Part 2** 
   - Personality Quiz App
-- Part 3
+- **Part 3**
   - Comming Soon
-- Part 4
+- **Part 4**
   - Comming Soon
