@@ -2,7 +2,7 @@
 // Welcome to Flutter / Dart
 //
 // Look through the branches for each of the projects
-// Each project branch branch has an animated gif
+// Each project branch has an animated gif
 // to show the result of that project.
 //
 // Thank you. 
