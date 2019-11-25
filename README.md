@@ -1,6 +1,6 @@
-![alt text][logo]
+![alt text][logo] Brian Gurtz
 
-[logo]: http://briangurtz.com/wp-content/uploads/2019/11/logo_bg.jpg "Brian Gurtz" Brian Gurtz
+[logo]: http://briangurtz.com/wp-content/uploads/2019/11/logo_bg.jpg "Brian Gurtz"
 
 # Flutter Course Projects and Examples
 
