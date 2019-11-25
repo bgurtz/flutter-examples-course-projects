@@ -1,9 +1,25 @@
-// This is our blank starting point for the course projects
-// Welcome to Flutter / Dart
-//
-// Look through the branches for each of the projects
-// Each project branch has an animated gif
-// to show the result of that project.
-//
-// Thank you. 
-// Brian Gurtz
+// This is our ' First App and AppBar ' 
+
+import 'package:flutter/material.dart';
+
+void main() => runApp(MyApp());
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: SafeArea(
+        child:
+        Scaffold(
+          appBar: AppBar(
+            title: Text('My First App & AppBar'),
+          ),
+          body: Center(child: 
+          Text('Brian Gurtz'),
+          ),
+        ),
+      ),
+    );
+    
+  }
+}
