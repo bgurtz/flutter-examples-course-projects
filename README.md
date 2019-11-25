@@ -1,16 +1,22 @@
-# flutter_course_projects
+![alt text][logo]
 
-A new Flutter project.
+[logo]: http://briangurtz.com/wp-content/uploads/2019/11/logo_bg.jpg "Brian Gurtz"
 
-## Getting Started
+# Flutter Course Projects and Examples
 
-This project is a starting point for a Flutter application.
+## Look through the ' Branches ' at the top to see the diffrent sections.
+- For more projects you can check out the Repository ' Flutter Basics '
+-  It has some other simple projects and some specific features covered
 
-A few resources to get you started if this is your first Flutter project:
+### Section's Covered so far.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+#### Each section has an animated gif to show what you will build. 
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Part 1 
+  - My First App ' Hello World ' with AppBar and SafeArea introduction
+- Part 2 
+  - Personality Quiz App
+- Part 3
+  - 
+- Part 4
+  - 
