@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 
 import './question.dart';
-import 'answer.dart';
+import './answer.dart';
 
 // void main() {
 //   runApp(
@@ -36,11 +36,19 @@ class _MyAppState extends State<MyApp> {
 
   @override
   Widget build(BuildContext context) {
-    var questions = [
-      'What\'s your favorite color?',
-      'what\'s your favorite animal?',
-      'what\'s your favorite food?',
-      'what\'s your favorite question?',
+    var questions = [ 
+      {'questionText': 'What\'s your favorite color?', 
+      'answers': ['Blue', 'Black', 'Red', 'Green'],
+        },
+        {'questionText': 'what\'s your favorite animal?', 
+        'answers': ['Dog', 'Cat', 'Horse', 'Snake'],
+        },
+        {'questionText': 'what\'s your favorite food?', 
+        'answers': ['Pizza', 'Cheeseburger', 'Stake', 'Ice Cream'],
+        },
+        {'questionText': 'what\'s your favorite style of car?', 
+        'answers': ['Pickup Truck', 'Compact Car', 'Van', 'Sports car'],
+        },
     ];
     return MaterialApp(
       home: SafeArea(
@@ -66,7 +74,7 @@ class _MyAppState extends State<MyApp> {
               // of this main.dart file. 
               // effectively splitting out widgets.
               Question(
-                questions[_questionIndex],
+                questions[_questionIndex] ['questionText'],
               ),
 
 
@@ -80,10 +88,14 @@ class _MyAppState extends State<MyApp> {
               //   onPressed: () => Text("anonymous function")
               // ),
 
-              Answer(_answerQuestion),
-              Answer(_answerQuestion),
-              Answer(_answerQuestion),
+              // Answer(_answerQuestion),
+              // Answer(_answerQuestion),
+              // Answer(_answerQuestion),
 
+              ...(questions[_questionIndex]['answers'] as List<String>)
+                  .map((answer) {
+                return Answer(_answerQuestion, answer);
+              }).toList()
 
               // the raised buttons have been refactored and now
               // have their own answer.dart file. 
